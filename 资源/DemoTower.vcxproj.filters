@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ObectjID">
+      <UniqueIdentifier>{888b8f8c-1427-4e95-950f-496825248acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{f05d7a87-6f48-4c6c-9a78-1d3c81fc72f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStatus">
+      <UniqueIdentifier>{f301b285-0d04-4105-a796-991d72e8b4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{572102b9-4055-45db-8b08-f298d5b96a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPowerID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrByObjID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="GObjID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="NourID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="TableInit.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolID.h">
+      <Filter>ObectjID</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfoWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUserWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MessgeTips.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="WndClass.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStatus.h">
+      <Filter>GameStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="TalkingWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FightWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectList.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TraverFloorWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostInfoQueryWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgTipsWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AttrByObjID.cpp">
+      <Filter>ObectjID</Filter>
+    </ClCompile>
+    <ClCompile Include="TableInit.cpp">
+      <Filter>ObectjID</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfoWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUserWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTips.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="WndClass.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStatus.cpp">
+      <Filter>GameStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TalkingWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FightWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectList.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TraverFloorWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostInfoQueryWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgTipsWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

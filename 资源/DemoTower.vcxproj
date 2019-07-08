@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C80C432-7A59-4E59-B603-2B61BA25AC15}</ProjectGuid>
+    <RootNamespace>DemoTower</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AddPowerID.h" />
+    <ClInclude Include="AttrByObjID.h" />
+    <ClInclude Include="FightWindow.h" />
+    <ClInclude Include="GameInfoWindow.h" />
+    <ClInclude Include="GameStatus.h" />
+    <ClInclude Include="GameUserWindow.h" />
+    <ClInclude Include="GhostID.h" />
+    <ClInclude Include="GhostInfoQueryWindow.h" />
+    <ClInclude Include="ListBox.h" />
+    <ClInclude Include="GObjID.h" />
+    <ClInclude Include="header.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MessgeTips.h" />
+    <ClInclude Include="MsgTipsWindow.h" />
+    <ClInclude Include="NourID.h" />
+    <ClInclude Include="OtherID.h" />
+    <ClInclude Include="PersonID.h" />
+    <ClInclude Include="SelectList.h" />
+    <ClInclude Include="ShopWindow.h" />
+    <ClInclude Include="TableInit.h" />
+    <ClInclude Include="TalkingWindow.h" />
+    <ClInclude Include="ToolID.h" />
+    <ClInclude Include="TraverFloorWindow.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="WndClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AttrByObjID.cpp" />
+    <ClCompile Include="FightWindow.cpp" />
+    <ClCompile Include="GameInfoWindow.cpp" />
+    <ClCompile Include="GameStatus.cpp" />
+    <ClCompile Include="GameUserWindow.cpp" />
+    <ClCompile Include="GhostInfoQueryWindow.cpp" />
+    <ClCompile Include="ListBox.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MessageTips.cpp" />
+    <ClCompile Include="MsgTipsWindow.cpp" />
+    <ClCompile Include="SelectList.cpp" />
+    <ClCompile Include="ShopWindow.cpp" />
+    <ClCompile Include="TableInit.cpp" />
+    <ClCompile Include="TalkingWindow.cpp" />
+    <ClCompile Include="TraverFloorWindow.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="WndClass.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
